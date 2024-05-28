@@ -1,0 +1,127 @@
+:root{
+    --color-light: #ffffff;
+    --color-darkBlue: #110078;
+    --color-blue: #273DFF;
+    --transition: .3s;
+    --font-body: 'Inter';
+    --font-size-Small: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    text-decoration: none;
+    color: #000;
+}
+
+
+.hotBar__topInfos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hotBar__topInfos ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.hotBar__topInfos li {
+    font-size: var(--font-size-Small);
+    
+    border-right: 1px solid #D1D1D1;
+    padding: 0px 5px;
+    width: 30%;
+    text-align: center;
+    
+    a{
+        color: var(--color-darkBlue);
+        font-weight: 600;
+    }
+}
+
+.hotBar_login{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.hotBar_login button{
+    background-color: var(--color-blue);
+    border: none;
+    padding: 0 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.hotBar_login img{
+    height: 30px;
+}
+
+/****hotbar de cima **/
+
+.hotBar__infos{
+    width: 100vw auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px;
+    margin-top: 10px
+}
+
+.hotBar__infos img{
+    height: 30px;
+}
+
+.hotBar__infos ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.hotBar__infos li {
+    a{
+        font-weight: 600;
+        
+
+    }
+}
+
+a:hover {
+    color: var(--color-blue);
+}
+
+.hotBar__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 9%;
+
+}
+
+.hamburber{
+    display: flex;
+    flex-direction: column;
+    gap: 35%;
+    align-items: center;
+
+
+}
+
+.linha{
+    height: 2px;
+    width: 40px;
+    background-color: var(--color-blue);
+}
+
+.hotBar__menu h3:hover{
+    color: var(--color-blue);   
+}
+
